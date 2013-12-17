@@ -8,15 +8,15 @@
 			<table class="form-table">
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-a"><?php echo get_option('oizuled-adsense-unit-a'); ?></textarea><br />Use <strong>[Adsense-A]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-a"><?php echo get_option('oizuled-adsense-unit-a'); ?></textarea><br />Use <strong>[AdSense-A]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-b"><?php echo get_option('oizuled-adsense-unit-b'); ?></textarea><br />Use <strong>[Adsense-B]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-b"><?php echo get_option('oizuled-adsense-unit-b'); ?></textarea><br />Use <strong>[AdSense-B]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-c"><?php echo get_option('oizuled-adsense-unit-c'); ?></textarea><br />Use <strong>[Adsense-C]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-c"><?php echo get_option('oizuled-adsense-unit-c'); ?></textarea><br />Use <strong>[AdSense-C]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<td colspan="2"><input type="hidden" name="action" value="update" /><?php submit_button(); ?></td>
