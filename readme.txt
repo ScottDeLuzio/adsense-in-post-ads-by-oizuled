@@ -4,7 +4,7 @@ Tags: plugin, google, ad, ads, adsense, advertising, page, pages, post, posts
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ALV8J4HQVW2MS
 Requires at least: 3.1
 Tested up to: 3.8
-Stable tag: 1.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,9 +61,21 @@ If you delete the ad code, and still have the associated shortcode inside a page
 3. Your ad is now in the body of your article where users are more likely to click it.
 
 == Changelog ==
+= 1.0.2 =
+* Minor updates
+
+= 1.0.1 =
+* Bug Fix
+
 = 1.0 =
 * Initial release.
 
 == Upgrade Notice ==
+= 1.0.2 =
+* Minor updates
+
+= 1.0.1 =
+* Bug Fix
+
 = 1.0 =
 * Initial release.

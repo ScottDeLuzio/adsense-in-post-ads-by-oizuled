@@ -8,15 +8,15 @@
 			<table class="form-table">
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-a"><?php echo get_option('oizuled-adsense-unit-a'); ?></textarea><br />Use <strong>[Adsense-A]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-a"><?php echo get_option('oizuled-adsense-unit-a'); ?></textarea><br />Use <strong>[AdSense-A]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-b"><?php echo get_option('oizuled-adsense-unit-b'); ?></textarea><br />Use <strong>[Adsense-B]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-b"><?php echo get_option('oizuled-adsense-unit-b'); ?></textarea><br />Use <strong>[AdSense-B]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<th scope="row">Enter the AdSense code provided to you from your <a href="https://www.google.com/adsense" target="_blank">Google AdSense account</a>.</th>
-					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-c"><?php echo get_option('oizuled-adsense-unit-c'); ?></textarea><br />Use <strong>[Adsense-C]</strong> to display this ad.</td>
+					<td><textarea rows="5" cols="36" name="oizuled-adsense-unit-c"><?php echo get_option('oizuled-adsense-unit-c'); ?></textarea><br />Use <strong>[AdSense-C]</strong> to display this ad.</td>
 				</tr>
 				<tr valign="top">
 					<td colspan="2"><input type="hidden" name="action" value="update" /><?php submit_button(); ?></td>
@@ -29,7 +29,8 @@
 			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ALV8J4HQVW2MS');">
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47">
 			</a>
-		<p>To report any issues with this plugin, please use the <a href="http://oizuled.com/contact">contact form</a>, or visit the <a href="http://wordpress.org/support/plugin/adsense-in-post-ads-by-oizuled">support page on WordPress.org</a>.</p>
+		<p>To report any issues with <strong>this plugin</strong>, please visit the <a href="http://wordpress.org/support/plugin/adsense-in-post-ads-by-oizuled">support page on WordPress.org</a>.</p>
+		<p>For all other WordPress support, please check out the following <a href="http://oizuled.com/wordpress-site-setup/">site set-up</a>, <a href="http://oizuled.com/wordpress-support-24x7-unlimited-fast-fixes/">24x7 support</a>, and other <a href="http://oizuled.com/live-wordpress-support-services/">WordPress training</a> services.</p>
 		<p><a href="https://twitter.com/oizuled" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @oizuled</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 	</div>

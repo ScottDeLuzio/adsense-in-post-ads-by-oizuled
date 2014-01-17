@@ -4,7 +4,7 @@
    Plugin URI: http://oizuled.com/wordpress-plugins/adsense-inpost-ads/
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ALV8J4HQVW2MS
    Description: A plugin to display a shortcode to insert your Google AdSense ads inside your posts.
-   Version: 1.0
+   Version: 1.0.2
    Author: Scott DeLuzio
    Author URI: http://oizuled.com
    License: GPL2
@@ -62,7 +62,7 @@ function register_oizuled_adsense_settings() {
 
 // Display the page content for the AdSense submenu
 function oizuled_adsense_settings_page() {
-	include(WP_PLUGIN_DIR.'/adsense-inpost-ads-by-oizuled/options.php');  
+	include(WP_PLUGIN_DIR.'/adsense-in-post-ads-by-oizuled/options.php');  
 }
 
 /* Set Shortcodes */
