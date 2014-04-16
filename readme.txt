@@ -4,7 +4,7 @@ Tags: plugin, scheduling, content, page, posts, scheduled content, timed, delay
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3DJTGQDLMYWAG
 Requires at least: 3.1.0
 Tested up to: 3.9
-Stable tag: 1.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,9 +34,13 @@ FAQ1
 1. Schedule content to expire or begin at any time.
 
 == Changelog ==
+= 1.0.2 =
+* Minor Fixes.
+= 1.0.1 =
+* Minor Fixes.
 = 1.0 =
 * Initial release.
 
 == Upgrade Notice ==
-= 1.0 =
-* Initial release.
+= 1.0.2 =
+* Minor Fixes.
