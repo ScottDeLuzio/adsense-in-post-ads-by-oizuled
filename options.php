@@ -26,12 +26,12 @@
 	</div>
 	<div class="postbox">
 		<p>If this plugin has helped you out at all, please consider making a donation to encourage future updates.<br />Your generosity is appreciated!</p>
-			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ALV8J4HQVW2MS');">
+			<a href="#" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2');">
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" width="147" height="47">
 			</a>
 		<p>To report any issues with <strong>this plugin</strong>, please visit the <a href="http://wordpress.org/support/plugin/adsense-in-post-ads-by-oizuled">support page on WordPress.org</a>.</p>
-		<p>For all other WordPress support, please check out the following <a href="http://oizuled.com/wordpress-site-setup/">site set-up</a>, <a href="http://oizuled.com/wordpress-support-24x7-unlimited-fast-fixes/">24x7 support</a>, and other <a href="http://oizuled.com/live-wordpress-support-services/">WordPress training</a> services.</p>
-		<p><a href="https://twitter.com/oizuled" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @oizuled</a>
+		<p>For all other WordPress support, please check out the following <a href="https://surpriseazwebservices.com/services/wordpress-site-install/">site set-up</a>, <a href="https://surpriseazwebservices.com/services/wordpress-maintenance-support/">WordPress Maintenance Support</a>, and other <a href="https://surpriseazwebservices.com/services/">WordPress services</a>.</p>
+		<p><a href="https://twitter.com/SurpriseWebSvc" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @SurpriseWebSvc</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 	</div>
 </div>
