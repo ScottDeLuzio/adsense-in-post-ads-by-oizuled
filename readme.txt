@@ -1,4 +1,4 @@
-=== In-Post Content Scheduler ===
+=== AdSense In-Post Ads ===
 Contributors: scott.deluzio
 Tags: plugin, scheduling, content, page, posts, scheduled content, timed, delay
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3DJTGQDLMYWAG
