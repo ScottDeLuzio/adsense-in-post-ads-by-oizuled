@@ -4,7 +4,7 @@
    Plugin URI: https://surpriseazwebservices.com/wordpress-plugins/in-post-google-adsense-wordpress-plugin/
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
    Description: A plugin to display a shortcode to insert your Google AdSense ads inside your posts.
-   Version: 1.0.8
+   Version: 1.0.9
    Author: Scott DeLuzio
    Author URI: https://surpriseazwebservices.com
    License: GPL2
@@ -68,7 +68,7 @@ function oizuled_adsense_settings_page() {
 /* Set Shortcodes */
 function oizuled_adsense_a() {
 if(!isset($oizuledadsense_a)) {
-	$oizuledadsense_a = get_option('oizuled-adsense-unit-a');
+	$oizuledadsense_a = do_shortcode( get_option('oizuled-adsense-unit-a') );
 }
 	return $oizuledadsense_a;
 }
@@ -76,7 +76,7 @@ add_shortcode('AdSense-A', 'oizuled_adsense_a');
 
 function oizuled_adsense_b() {
 if(!isset($oizuledadsense_b)) {
-	$oizuledadsense_b = get_option('oizuled-adsense-unit-b');
+	$oizuledadsense_b = do_shortcode( get_option('oizuled-adsense-unit-b') );
 }
 	return $oizuledadsense_b;
 }
@@ -84,7 +84,7 @@ add_shortcode('AdSense-B', 'oizuled_adsense_b');
 
 function oizuled_adsense_c() {
 if(!isset($oizuledadsense_c)) {
-	$oizuledadsense_c = get_option('oizuled-adsense-unit-c');
+	$oizuledadsense_c = do_shortcode( get_option('oizuled-adsense-unit-c') );
 }
 	return $oizuledadsense_c;
 }
