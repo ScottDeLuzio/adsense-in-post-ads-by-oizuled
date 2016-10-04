@@ -51,7 +51,7 @@
 <div class="wrap">
 	<div class="postbox leftsettings">
 		<h2>AdSense In-Post Options</h2>
-		<p>You can enter up to three different sets of AdSense code to use in your pages and posts. You can create a number of different styled image or text based ads. For help deciding which styles or sizes will work best for you, please visit Google's <a href="https://support.google.com/adsense/topic/1307421?hl=en&ref_topic=3384747">AdSense Help page</a>.</p>
+		<p>You can enter up to three different sets of AdSense code to use in your pages and posts. You can create a number of different styled image or text based ads. <br /><strong>For additional fields and more control over your ads, upgrade to <a href="https://surpriseazwebservices.com/plugins/in-post-ads-pro/">In-Post Ads Pro</a>.</strong></p>
 		<form method='post' action='options.php'>
 			<?php wp_nonce_field( 'update-options' ); ?>
 			<?php settings_fields( 'oizuled-adsense-option-group' ); ?>
@@ -83,9 +83,9 @@
 			</tr>
 			<tr valign="top">
 				<td>
-					Allow authors on your site to earn revenue from ads in their posts. Authors can use a shortcode the same way you use the AdSense shortcodes in this plugin.<br /><br />
-					Give your authors an incentive to write posts that will get visitors coming back to your site and be able to increase your own ad revenue!<br /><br />
-					<a href="https://surpriseazwebservices.com/plugins/revenue-share-ad-manager/" target="_blank" class="upgrade">Get Revenue Share Ad Manager Now!</a>
+					Get In-Post Ads Pro and save an unlimited number of ad units that can be used in the body of your pages or posts.<br /><br />
+					Save different ads for different post categories, or create a compelling call to action banner that can be used in any page or post on your site.<br /><br />
+					<a href="https://surpriseazwebservices.com/plugins/in-post-ads-pro/" target="_blank" class="upgrade">Get In-Post Ads Pro Now!</a>
 				</td>
 			</tr>
 			<tr valign="top">
