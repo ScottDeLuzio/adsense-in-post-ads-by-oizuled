@@ -4,13 +4,13 @@
    Plugin URI: https://surpriseazwebservices.com/wordpress-plugins/in-post-google-adsense-wordpress-plugin/
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
    Description: A plugin to display a shortcode to insert your Google AdSense ads inside your posts.
-   Version: 1.0.6
+   Version: 1.0.7
    Author: Scott DeLuzio
    Author URI: https://surpriseazwebservices.com
    License: GPL2
    */
    
-	/*  Copyright 2014  Scott DeLuzio  (email : scott (at) surpriseazwebservices.com)
+	/*  Copyright 2016  Scott DeLuzio  (email : scott (at) surpriseazwebservices.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 

@@ -1,10 +1,10 @@
-=== AdSense In-Post Ads by Oizuled ===
+=== AdSense In-Post Ads ===
 Contributors: scott.deluzio
 Tags: plugin, google, ad, ads, adsense, advertising, page, pages, post, posts
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
 Requires at least: 3.1
-Tested up to: 4.1
-Stable tag: 1.0.6
+Tested up to: 4.4.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,14 @@ The AdSense In-Post Ads plugin allows you to save your most used AdSense ad code
 You may already use a plugin to display your ads in a widgetized area of your page such as the left or right sidebars, or in the header or footer of your page. While this does get the ads on the page, your site visitors are not likely to click on them. 
 
 This plugin creates shortcodes, which you can use inside the body of any page or post to display an AdSense advertisement. This is where your reader's eyes are looking anyway, and it will increase the odds that they will click on the ad.
+
+= Get even more from In-Post Ads Pro! =
+
+Upgrade to In-Post Ads Pro and save an unlimited number of ad blocks on your site to be used anywhere you can add a shortcode. 
+
+In-Post Ads Pro has additional features that help you control the layout of your ad blocks so you can position them exactly how you want them.
+
+Learn more about [In-Post Ads Pro](https://surpriseazwebservices.com/plugins/in-post-ads-pro/)!
 
 == Installation ==
 1. Download archive and unzip in wp-content/plugins or install via Plugins – Add New.
@@ -61,6 +69,9 @@ If you delete the ad code, and still have the associated shortcode inside a page
 3. Your ad is now in the body of your article where users are more likely to click it.
 
 == Changelog ==
+= 1.0.7 =
+* Minor updates
+
 = 1.0.6 =
 * Admin screen layout adjustments
 
@@ -83,5 +94,5 @@ If you delete the ad code, and still have the associated shortcode inside a page
 * Initial release.
 
 == Upgrade Notice ==
-= 1.0.6 =
-* Admin screen layout adjustments
+= 1.0.7 =
+* Minor updates
