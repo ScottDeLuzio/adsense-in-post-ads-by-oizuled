@@ -1,93 +1,64 @@
 <?php
    /*
    Plugin Name: AdSense In-Post Ads
-   Plugin URI: https://surpriseazwebservices.com/wordpress-plugins/in-post-google-adsense-wordpress-plugin/
+   Plugin URI: https://wpinpostads.com
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
    Description: A plugin to display a shortcode to insert your Google AdSense ads inside your posts.
-   Version: 1.0.9
+   Version: 2.0.0
    Author: Scott DeLuzio
-   Author URI: https://surpriseazwebservices.com
+   Author URI: https://scottdeluzio.com
    License: GPL2
+   Text Domain: adsense-inpost-ads
    */
-   
-	/*  Copyright 2016  Scott DeLuzio  (email : scott (at) surpriseazwebservices.com)
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
-    published by the Free Software Foundation.
+	/*  Copyright 2016  Scott DeLuzio  (email : me (at) scottdeluzio.com)
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License, version 2, as
+	published by the Free Software Foundation.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	*/
-
-/* Settings Page */
-
-// Hook for adding admin menus
-add_action('admin_menu', 'oizuled_adsense_add_pages');
-
-// action function for above hook
-function oizuled_adsense_add_pages() {
-    // Add a new submenu under Settings:
-    add_options_page('AdSense In-Post Options','AdSense In-Post', 'manage_options', 'oizuledadsenseinpost', 'oizuled_adsense_settings_page');
+if ( ! defined( 'ABSPATH' ) ) {
+  exit; // Exit if accessed directly
+}
+require_once __DIR__ . '/blocks/adsense-ad-a.php';
+require_once __DIR__ . '/blocks/adsense-ad-b.php';
+require_once __DIR__ . '/blocks/adsense-ad-c.php';
+/* Load Text Domain */
+add_action('plugins_loaded', 'adsense_inpost_ads_plugin_init');
+function adsense_inpost_ads_plugin_init() {
+  load_plugin_textdomain( 'adsense-inpost-ads', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
 }
 
-add_action('admin_init', 'register_oizuled_adsense_settings');
-
-function activate_adsense_inpost() {
-  add_option('oizuled-adsense-unit-a', '');
-  add_option('oizuled-adsense-unit-b', '');
-  add_option('oizuled-adsense-unit-c', '');
+/*
+ * Includes for Adsense Inpost Ads
+ */
+if ( ! defined( 'ADSENSE_INPOST_ADS' ) ) {
+	define( 'ADSENSE_INPOST_ADS', __FILE__ );
+}
+if( ! defined( 'ADSENSE_INPOST_ADS_PLUGIN_DIR' ) ) {
+	define( 'ADSENSE_INPOST_ADS_PLUGIN_DIR', dirname( __FILE__ ) );
+}
+if( ! defined( 'ADSENSE_INPOST_ADS_PLUGIN_URL' ) ) {
+  define( 'ADSENSE_INPOST_ADS_PLUGIN_URL', plugins_url( '', __FILE__ ) );
+}
+if ( ! defined( 'ADSENSE_INPOST_ADS_PLUGIN_BASENAME' ) ) {
+  define( 'ADSENSE_INPOST_ADS_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+}
+if ( ! defined( 'ADSENSE_INPOST_ADS_VERSION' ) ) {
+  define( 'ADSENSE_INPOST_ADS_VERSION', '2.0.0' );
 }
 
-function deactive_adsense_inpost() {
-  delete_option('oizuled-adsense-unit-a');
-  delete_option('oizuled-adsense-unit-b');
-  delete_option('oizuled-adsense-unit-c');
-}
+$aip_options = get_option( 'aip_settings' );
 
-register_activation_hook(__FILE__, 'activate_adsense_inpost');
-register_deactivation_hook(__FILE__, 'deactive_adsense_inpost');
-
-function register_oizuled_adsense_settings() {
-	register_setting( 'oizuled-adsense-option-group', 'oizuled-adsense-unit-a');
-	register_setting( 'oizuled-adsense-option-group', 'oizuled-adsense-unit-b');
-	register_setting( 'oizuled-adsense-option-group', 'oizuled-adsense-unit-c');
-}
-
-// Display the page content for the AdSense submenu
-function oizuled_adsense_settings_page() {
-	include(WP_PLUGIN_DIR.'/adsense-in-post-ads-by-oizuled/options.php');  
-}
-
-/* Set Shortcodes */
-function oizuled_adsense_a() {
-if(!isset($oizuledadsense_a)) {
-	$oizuledadsense_a = do_shortcode( get_option('oizuled-adsense-unit-a') );
-}
-	return $oizuledadsense_a;
-}
-add_shortcode('AdSense-A', 'oizuled_adsense_a');
-
-function oizuled_adsense_b() {
-if(!isset($oizuledadsense_b)) {
-	$oizuledadsense_b = do_shortcode( get_option('oizuled-adsense-unit-b') );
-}
-	return $oizuledadsense_b;
-}
-add_shortcode('AdSense-B', 'oizuled_adsense_b');
-
-function oizuled_adsense_c() {
-if(!isset($oizuledadsense_c)) {
-	$oizuledadsense_c = do_shortcode( get_option('oizuled-adsense-unit-c') );
-}
-	return $oizuledadsense_c;
-}
-add_shortcode('AdSense-C', 'oizuled_adsense_c');
-
-?>
+include( ADSENSE_INPOST_ADS_PLUGIN_DIR . '/includes/admin-settings-page.php' );
+include( ADSENSE_INPOST_ADS_PLUGIN_DIR . '/includes/shortcodes.php' );
+include( ADSENSE_INPOST_ADS_PLUGIN_DIR . '/includes/updater.php' );

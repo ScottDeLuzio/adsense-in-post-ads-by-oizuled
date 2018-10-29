@@ -1,32 +1,34 @@
 === AdSense In-Post Ads ===
 Contributors: scott.deluzio
-Tags: plugin, google, ad, ads, adsense, advertising, page, pages, post, posts
+Tags: plugin, google, ad, ads, adsense, advertising
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
 Requires at least: 3.1
-Tested up to: 4.6.1
-Stable tag: 1.0.9
+Tested up to: 5.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A plugin to display a shortcode to insert your Google AdSense ads inside your pages or posts.
 
 == Description ==
-The AdSense In-Post Ads plugin allows you to save your most used AdSense ad codes, and insert them as a shortcode in your pages or posts. 
+The AdSense In-Post Ads plugin allows you to save your most used AdSense ad codes, and insert them as a shortcode in your pages or posts.
 
-You may already use a plugin to display your ads in a widgetized area of your page such as the left or right sidebars, or in the header or footer of your page. While this does get the ads on the page, your site visitors are not likely to click on them. 
+You may already use a plugin to display your ads in a widgetized area of your page such as the left or right sidebars, or in the header or footer of your page. While this does get the ads on the page, your site visitors are not likely to click on them.
 
 This plugin creates shortcodes, which you can use inside the body of any page or post to display an AdSense advertisement. This is where your reader's eyes are looking anyway, and it will increase the odds that they will click on the ad.
 
-= Get even more from In-Post Ads Pro! =
+= Upgrade to get even more from In-Post Ads! =
 
-Upgrade to In-Post Ads Pro and save an unlimited number of ad blocks on your site to be used anywhere you can add a shortcode. 
+Upgrade to WP In-Post Ads and save an unlimited number of ad blocks on your site.
 
-In-Post Ads Pro has additional features that help you control the layout of your ad blocks so you can position them exactly how you want them.
+Automatically have your ads inserted for you - never copy and paste an ad code again!
 
-Learn more about [In-Post Ads Pro](https://surpriseazwebservices.com/plugins/in-post-ads-pro/)!
+In-Post Ads has additional features that help you control the layout of your ad blocks so you can position them exactly how you want them.
+
+Learn more about [In-Post Ads](https://wpinpostads.com/downloads/wp-in-post-ads/)!
 
 == Installation ==
-1. Download archive and unzip in wp-content/plugins or install via Plugins – Add New.
+1. Download archive and unzip in wp-content/plugins or install via Plugins ï¿½ Add New.
 2. Activate the plugin through the Plugins menu in WordPress.
 3. Copy your AdSense code from Google AdSense.
 4. In your WordPress dashboard, click on Settings > AdSense In-Post.
@@ -43,9 +45,11 @@ This plugin allows you to put ads in front of your site visitor's eyes, thereby 
 
 After you have saved your AdSense code, simply enter [AdSense-A], [AdSense-B], or [AdSense-C] as appropriate into any page or post where you want your add to appear.
 
+If your site is using the new Gutenberg editor, there are also AdSense A, B, and C blocks that can be inserted into your page or post content. Due to how AdSense ads are rendered, they are not able to show on the back end of your site. A placeholder will be displayed on the page or post edit screen.
+
 = Can I use more than one ad block per page? =
 
-Yes! However, please check Google's policy regarding the number of ads allowed per page and their general ad placement policies. 
+Yes! However, please check Google's policy regarding the number of ads allowed per page and their general ad placement policies.
 
 https://support.google.com/adsense/answer/1346295?hl=en
 
@@ -69,6 +73,17 @@ If you delete the ad code, and still have the associated shortcode inside a page
 3. Your ad is now in the body of your article where users are more likely to click it.
 
 == Changelog ==
+= 1.1.2 =
+* Removed update nag notice.
+* Minor improvements.
+
+= 1.1.1 =
+* Fix: Bug prevented ad codes from being displayed correctly on the admin settings page.
+
+= 1.1.0 =
+* Improved admin layout.
+* Introduced upgrade features.
+
 = 1.0.9 =
 * New: Includes do_shortcode functions on shortcode output to allow use of other shortcodes in the AdSense shortcodes.
 
@@ -100,5 +115,6 @@ If you delete the ad code, and still have the associated shortcode inside a page
 * Initial release.
 
 == Upgrade Notice ==
-= 1.0.8 =
-* Minor updates
+= 1.1.2 =
+* Removed update nag notice.
+* Minor improvements.
