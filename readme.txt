@@ -28,7 +28,7 @@ In-Post Ads has additional features that help you control the layout of your ad 
 Learn more about [In-Post Ads](https://wpinpostads.com/downloads/wp-in-post-ads/)!
 
 == Installation ==
-1. Download archive and unzip in wp-content/plugins or install via Plugins � Add New.
+1. Download archive and unzip in wp-content/plugins or install via Plugins > Add New.
 2. Activate the plugin through the Plugins menu in WordPress.
 3. Copy your AdSense code from Google AdSense.
 4. In your WordPress dashboard, click on Settings > AdSense In-Post.
