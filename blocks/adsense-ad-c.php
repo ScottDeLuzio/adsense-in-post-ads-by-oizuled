@@ -16,6 +16,8 @@ function adsense_ad_c_enqueue_block_editor_assets() {
 			'wp-blocks',
 			'wp-i18n',
 			'wp-element',
+			'wp-components',
+			'wp-editor'
 		), filemtime( "$dir/$block_js" )
 	);
 }
