@@ -2,14 +2,6 @@
 	float: left;
 	display: block;
 }
-.aipa-settings-left{
-	float: left;
-	width: 66.6%;
-}
-.aipa-settings-right{
-	float: left;
-	width: 33.3%;
-}
 hr.aipa-divider{
     margin-top: 20px;
     border-bottom: 1px solid #ccc;
