@@ -4,8 +4,8 @@
    Plugin URI: https://amplifyplugins.com
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
    Description: A plugin to display a shortcode to insert ads inside your posts.
-   Version: 2.0.3
-   Author: Scott DeLuzio
+   Version: 2.0.4
+   Author: AMP-MODE
    Author URI: https://scottdeluzio.com
    License: GPL2
    Text Domain: adsense-inpost-ads
@@ -54,7 +54,7 @@ if ( ! defined( 'ADSENSE_INPOST_ADS_PLUGIN_BASENAME' ) ) {
   define( 'ADSENSE_INPOST_ADS_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 }
 if ( ! defined( 'ADSENSE_INPOST_ADS_VERSION' ) ) {
-  define( 'ADSENSE_INPOST_ADS_VERSION', '2.0.3' );
+  define( 'ADSENSE_INPOST_ADS_VERSION', '2.0.4' );
 }
 
 $aip_options = get_option( 'aip_settings' );
