@@ -4,7 +4,9 @@
    Plugin URI: https://amplifyplugins.com
    Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
    Description: A plugin to display a shortcode to insert ads inside your posts.
-   Version: 2.0.4
+   Tested up to: 6.0.1
+   Version: 2.0.5
+   WC tested up to: 6.7.0
    Author: AMP-MODE
    Author URI: https://scottdeluzio.com
    License: GPL2

@@ -3,8 +3,8 @@ Contributors: scott.deluzio, ampmode
 Tags: plugin, google, ad, ads, adsense, advertising
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHZNUWTHW9W2
 Requires at least: 3.1
-Tested up to: 5.8.1
-Stable tag: 2.0.4
+Tested up to: 6.0.1
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,9 @@ If you delete the ad code, and still have the associated shortcode inside a page
 3. Your ad is now in the body of your article where users are more likely to click it.
 
 == Changelog ==
+= 2.0.5 =
+* Updated tested up to versions of WP and WooCommerce.
+
 = 2.0.4 =
 * Updated tested up to version.
 * Added Contributors.
@@ -124,6 +127,5 @@ If you delete the ad code, and still have the associated shortcode inside a page
 * Initial release.
 
 == Upgrade Notice ==
-= 2.0.4 =
-* Updated tested up to version.
-* Added Contributors.
+= 2.0.5 =
+* Updated tested up to versions of WP and WooCommerce.
